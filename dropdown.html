@@ -1,0 +1,78 @@
+<html
+  <head>
+    <title>Dropdown Example</title>
+  </head>
+  <body>
+    <h1>Dropdown Example</h1>
+    <label for="dropdown">Select an option:</label>
+    <select id="dropdown" name="dropdown">
+      <option value="option1">Option 1</option>
+      <option value="option2">Option 2</option>
+      <option value="option3">Option 3</option>
+      <option value="option4">Option 4</option>
+    </select>
+  </body>
+    <style>
+      /* Style for the horizontal navigation menu */
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: #111;
+      }
+      
+      /* Style for the vertical navigation menu */
+      .vertical-menu {
+        width: 200px;
+      }
+      
+      .vertical-menu a {
+        background-color: #eee;
+        color: black;
+        display: block;
+        padding: 12px;
+        text-decoration: none;
+      }
+      
+      .vertical-menu a:hover {
+        background-color: #bbb;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Navigation Example</h1>
+    <p>Horizontal navigation menu:</p>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+    <br>
+    <p>Vertical navigation menu:</p>
+    <div class="vertical-menu">
+      <a href="#home">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+    </div>
+  </body>
+</html>
+
